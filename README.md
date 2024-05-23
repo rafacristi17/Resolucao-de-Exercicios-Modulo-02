@@ -5,9 +5,7 @@ Pergunte a quantidade de cigarros fumados por dias e quantos anos ele já fumou.
 Considere que um fumante perde 10 min de vida a cada cigarro. Calcule quantos dias de
 vida um fumante perderá e exiba o total em dias.
 2. Escreva um programa que pergunte a velocidade de um carro. Caso ultrapasse 80 Km
-h
--1
-, exiba uma mensagem dizendo que o usuário foi multado. Nesse caso, exiba o valor da
+h-1, exiba uma mensagem dizendo que o usuário foi multado. Nesse caso, exiba o valor da
 multa, cobrando R$ 5,00 por cada Km acima da velocidade permitida.
 3. Faça um algoritmo que pergunte a distância que um passageiro deseja percorrer em
 Km. Calcule o preço da passagem, cobrando R$ 0.50 por Km para viagens até 200 Km e
