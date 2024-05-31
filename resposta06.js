@@ -10,7 +10,7 @@ let prompt= require("prompt-sync")();
 let num = [0,1,2,3,4,5,6,7,8,9];
 
 let numsorteado = num[Math.floor(Math.random()*10)];
-console.log(numsorteado)
+console.log(numsorteado)// para saber o número sorteado
 let user = parseInt(prompt("Qual o número foi sorteado? "))
 
 if(numsorteado == user){
