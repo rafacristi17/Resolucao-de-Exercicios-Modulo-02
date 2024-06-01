@@ -1,6 +1,6 @@
 /*
-9. Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No final,
-mostre o total de salário pago aos homens e o total pago às mulheres. O programa vai
+9. Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários.
+No final, mostre o total de salário pago aos homens e o total pago às mulheres. O programa vai
 perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um
 funcionário.
 */
@@ -10,26 +10,41 @@ let leia = require('readline-sync');
 let prompt= require("prompt-sync")();
 
 
-let salarioF;
+let salarioF = [];
 
 function cadastroSalarioMulher(){
+
     let f = parseInt(prompt('Digite o salário separado por vírgula R$').split(',').map(Number));
-    let somaF;
+          salarioF.push(f);   
     
-     for (let i = 0; i < f.length; i ++) {
-        somaF += f[i];
-          }
-          somaF = salarioF     
-            console.log("Salário de usuária cadastrada com sucesso!!")  
-};
+        console.log("Salário de usuária cadastrada com sucesso!!"+ salarioF)  
+
+}
 
 function consultaSalarioF(){
-    if(salarioF !== undefined) {
-        console.log("A soma dos elementos é: " + salarioF);
-    } else {
-        console.log("A soma ainda não foi calculada.");
-    }
+    
+    let somaF = 0;
+   for (let i = 0; i < salarioF.length; i ++) {
+        somaF += salarioF[i];
+} 
+    console.log(`O total depositado em salarios para mulheres é de R$${somaF}`)
+}
 
+let salarioH= [];
+
+function cadastroSalarioHomem(){
+    let h = parseInt(prompt('Digite o salário separado por vírgula R$').split(',').map(Number));
+    salarioH.push(h);
+    console.log("Salário de usuário cadastrado com sucesso!!"+ salarioH)  
+}
+
+function consultaSalarioM(){
+
+    let somaH = 0;
+    for(let i = 0; i< salarioH.length; i++){
+        somaH+= salarioH[i];
+    }
+    console.log(`O total depositado em salarios para homens é de R$${somaH}`) 
 }
 
 let option
@@ -53,11 +68,11 @@ do {
         cadastroSalarioMulher();
         break;    
     case 2: 
-        cadastroSalarioHomem();
+       cadastroSalarioHomem();
         break;
       
     case 3: 
-        consultaSalarioF();
+      consultaSalarioF();
         break;
 
     case 4: 
