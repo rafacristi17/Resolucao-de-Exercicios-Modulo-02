@@ -44,10 +44,12 @@ sistema funciona assim:
 - A cada ponto ganho, o cliente fatura R$ 0,05 (5 centavos)
 Faça um programa que leia quantas horas de atividade uma pessoa teve por mês.
 Calcule e mostre quantos pontos ela teve e quanto dinheiro ela conseguiu ganhar.
+
 9. Desenvolva um aplicativo que leia o salário e o sexo de vários funcionários. No final,
 mostre o total de salário pago aos homens e o total pago às mulheres. O programa vai
 perguntar ao usuário se ele quer continuar ou não sempre que ler os dados de um
 funcionário.
+
 10. Crie um programa usando a estrutura “faça enquanto” que leia vários números. A
 cada laço, pergunte se o usuário quer continuar ou não. No final, mostre na tela:
 a) O somatório entre todos os valores;
