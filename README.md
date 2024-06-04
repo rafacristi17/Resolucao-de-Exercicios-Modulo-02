@@ -56,11 +56,14 @@ a) O somatório entre todos os valores;
 b) Qual foi o menor valor digitado;
 c) A média entre todos os valores;
 d) Quantos valores são pares.
+
 11. Desenvolva um programa que leia o primeiro termo e a razão de uma PA (Progressão
 Aritmética), mostrando na tela os 10 primeiros elementos da PA e a soma entre todos os
 valores da sequência.
+
 12. Faça um programa que mostre os 10 primeiros elementos da Sequência de Fibonacci.
 Ex.: 1, 1, 2, 3, 5, 8, 13, 21.
+
 13. Crie um programa que preencha automaticamente (usando lógica, não apenas
 atribuindo diretamente) um vetor numérico com 15 posições com os primeiros elementos
 da sequência de Fibonacci.
